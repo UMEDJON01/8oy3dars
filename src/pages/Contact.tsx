@@ -1,10 +1,33 @@
-const Contact = () => {
+function Contact() {
   return (
-    <div className="contact">
-      <h1>Contact Us</h1>
-      <p>Email us at contact@mymarket.com</p>
+    <div className="contact-container">
+      <div className="card">
+        <h1 className="title">
+          <a
+            href="https://www.instagram.com/umedjon_mamadaminov?igsh=MTIxbHlodmc2dWthMw=="
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BY MAMADAMINOV UMEDJON
+          </a>
+        </h1>
+        <p className="subtitle">Find me on Instagram for more!</p>
+        <p className="subtitle">
+          Also available on{" "}
+          <a
+            href="https://t.me/Mamadaminov_U"
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
-};
+}
 
 export default Contact;
